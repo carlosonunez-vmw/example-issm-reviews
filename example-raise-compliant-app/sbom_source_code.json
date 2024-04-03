@@ -1143,9 +1143,9 @@
             "UpdatedAt": "0001-01-01T00:00:00Z",
             "DeletedAt": null,
             "CVEID": "CVE-2023-20863",
-            "URL": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-20863",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven",
             "Description": "In spring framework versions prior to 5.2.24 release+ ,5.3.27+ and 6.0.8+ , it is possible for a user to provide a specially crafted SpEL expression that may cause a denial-of-service (DoS) condition.",
-            "CNA": "nvd:cpe",
+            "CNA": "ghsa",
             "Ratings": [
               {
                 "ID": 58,
@@ -1229,9 +1229,9 @@
             "UpdatedAt": "0001-01-01T00:00:00Z",
             "DeletedAt": null,
             "CVEID": "CVE-2023-20861",
-            "URL": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-20861",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven",
             "Description": "In Spring Framework versions 6.0.0 - 6.0.6, 5.3.0 - 5.3.25, 5.2.0.RELEASE - 5.2.22.RELEASE, and older unsupported versions, it is possible for a user to provide a specially crafted SpEL expression that may cause a denial-of-service (DoS) condition.",
-            "CNA": "nvd:cpe",
+            "CNA": "ghsa",
             "Ratings": [
               {
                 "ID": 56,
@@ -1342,9 +1342,9 @@
             "UpdatedAt": "0001-01-01T00:00:00Z",
             "DeletedAt": null,
             "CVEID": "CVE-2016-1000027",
-            "URL": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-1000027",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven",
             "Description": "Pivotal Spring Framework through 5.3.16 suffers from a potential remote code execution (RCE) issue if used for Java deserialization of untrusted data. Depending on how the library is implemented within a product, this issue may or not occur, and authentication may be required. NOTE: the vendor's position is that untrusted data is not an intended use case. The product's behavior will not be changed because some users rely on deserialization of trusted data.",
-            "CNA": "nvd:cpe",
+            "CNA": "ghsa",
             "Ratings": [
               {
                 "ID": 51,
@@ -1477,38 +1477,6 @@
             "Packages": null
           },
           {
-            "ID": 89,
-            "CreatedAt": "0001-01-01T00:00:00Z",
-            "UpdatedAt": "0001-01-01T00:00:00Z",
-            "DeletedAt": null,
-            "CVEID": "CVE-2024-22259",
-            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven",
-            "Description": "Applications that use UriComponentsBuilder in Spring Framework to parse an externally provided URL (e.g. through a query parameter) AND perform validation checks on the host of the parsed URL may be vulnerable to a  open redirect https://cwe.mitre.org/data/definitions/601.html  attack or to a SSRF attack if the URL is used after passing validation checks.\n\nThis is the same as  CVE-2024-22243 https://spring.io/security/cve-2024-22243 , but with different input.\n\n",
-            "CNA": "ghsa",
-            "Ratings": [
-              {
-                "ID": 111829,
-                "CreatedAt": "0001-01-01T00:00:00Z",
-                "UpdatedAt": "0001-01-01T00:00:00Z",
-                "DeletedAt": null,
-                "Score": 8.1,
-                "Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
-                "MethodTypeID": 4,
-                "Severity": "High",
-                "MethodType": {
-                  "ID": 0,
-                  "CreatedAt": "0001-01-01T00:00:00Z",
-                  "UpdatedAt": "0001-01-01T00:00:00Z",
-                  "DeletedAt": null,
-                  "Name": "",
-                  "Rating": null
-                }
-              }
-            ],
-            "References": null,
-            "Packages": null
-          },
-          {
             "ID": 70,
             "CreatedAt": "0001-01-01T00:00:00Z",
             "UpdatedAt": "0001-01-01T00:00:00Z",
@@ -1545,6 +1513,38 @@
                 "Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:N/I:L/A:N",
                 "MethodTypeID": 4,
                 "Severity": "Medium",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              }
+            ],
+            "References": null,
+            "Packages": null
+          },
+          {
+            "ID": 89,
+            "CreatedAt": "0001-01-01T00:00:00Z",
+            "UpdatedAt": "0001-01-01T00:00:00Z",
+            "DeletedAt": null,
+            "CVEID": "CVE-2024-22259",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven",
+            "Description": "Applications that use UriComponentsBuilder in Spring Framework to parse an externally provided URL (e.g. through a query parameter) AND perform validation checks on the host of the parsed URL may be vulnerable to a  open redirect https://cwe.mitre.org/data/definitions/601.html  attack or to a SSRF attack if the URL is used after passing validation checks.\n\nThis is the same as  CVE-2024-22243 https://spring.io/security/cve-2024-22243 , but with different input.\n\n",
+            "CNA": "ghsa",
+            "Ratings": [
+              {
+                "ID": 111829,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 8.1,
+                "Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+                "MethodTypeID": 4,
+                "Severity": "High",
                 "MethodType": {
                   "ID": 0,
                   "CreatedAt": "0001-01-01T00:00:00Z",
