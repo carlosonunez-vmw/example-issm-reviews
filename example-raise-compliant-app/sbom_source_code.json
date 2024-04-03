@@ -1,0 +1,2046 @@
+[
+  {
+    "ID": 1091,
+    "CreatedAt": "0001-01-01T00:00:00Z",
+    "UpdatedAt": "0001-01-01T00:00:00Z",
+    "DeletedAt": null,
+    "Repository": "example-java-app",
+    "Organization": "",
+    "Sha": "cc543b136cb647ed3fc9211f89d692f81714b740",
+    "Host": "example-java-app",
+    "Packages": [
+      {
+        "ID": 343,
+        "CreatedAt": "0001-01-01T00:00:00Z",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "DeletedAt": null,
+        "Name": "com.fasterxml.jackson.module:jackson-module-parameter-names",
+        "Version": "2.13.4",
+        "PackageManager": "Unknown",
+        "Homepage": "pkg:maven/com.fasterxml.jackson.module/jackson-module-parameter-names@2.13.4",
+        "Sources": null,
+        "Images": null,
+        "Vulnerabilities": []
+      },
+      {
+        "ID": 344,
+        "CreatedAt": "0001-01-01T00:00:00Z",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "DeletedAt": null,
+        "Name": "io.micrometer:micrometer-core",
+        "Version": "1.9.5",
+        "PackageManager": "Unknown",
+        "Homepage": "pkg:maven/io.micrometer/micrometer-core@1.9.5",
+        "Sources": null,
+        "Images": null,
+        "Vulnerabilities": []
+      },
+      {
+        "ID": 345,
+        "CreatedAt": "0001-01-01T00:00:00Z",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "DeletedAt": null,
+        "Name": "jakarta.annotation:jakarta.annotation-api",
+        "Version": "1.3.5",
+        "PackageManager": "Unknown",
+        "Homepage": "pkg:maven/jakarta.annotation/jakarta.annotation-api@1.3.5",
+        "Sources": null,
+        "Images": null,
+        "Vulnerabilities": []
+      },
+      {
+        "ID": 346,
+        "CreatedAt": "0001-01-01T00:00:00Z",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "DeletedAt": null,
+        "Name": "org.apache.logging.log4j:log4j-to-slf4j",
+        "Version": "24",
+        "PackageManager": "Unknown",
+        "Homepage": "pkg:maven/org.apache.logging.log4j/log4j-to-slf4j@24",
+        "Sources": null,
+        "Images": null,
+        "Vulnerabilities": []
+      },
+      {
+        "ID": 347,
+        "CreatedAt": "0001-01-01T00:00:00Z",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "DeletedAt": null,
+        "Name": "org.apache.tomcat.embed:tomcat-embed-core",
+        "Version": "9.0.68",
+        "PackageManager": "Unknown",
+        "Homepage": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.68",
+        "Sources": null,
+        "Images": null,
+        "Vulnerabilities": [
+          {
+            "ID": 64,
+            "CreatedAt": "0001-01-01T00:00:00Z",
+            "UpdatedAt": "0001-01-01T00:00:00Z",
+            "DeletedAt": null,
+            "CVEID": "CVE-2023-44487",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven",
+            "Description": "The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023.",
+            "CNA": "ghsa",
+            "Ratings": [
+              {
+                "ID": 951,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 0,
+                "Vector": "",
+                "MethodTypeID": 3,
+                "Severity": "High",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 953,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 7.5,
+                "Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "MethodTypeID": 4,
+                "Severity": "High",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 955,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 5.3,
+                "Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "MethodTypeID": 4,
+                "Severity": "Medium",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 961,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 0,
+                "Vector": "",
+                "MethodTypeID": 3,
+                "Severity": "Medium",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              }
+            ],
+            "References": null,
+            "Packages": null
+          },
+          {
+            "ID": 63,
+            "CreatedAt": "0001-01-01T00:00:00Z",
+            "UpdatedAt": "0001-01-01T00:00:00Z",
+            "DeletedAt": null,
+            "CVEID": "CVE-2023-45648",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven",
+            "Description": "Improper Input Validation vulnerability in Apache Tomcat.Tomcat from 11.0.0-M1 through 11.0.0-M11, from 10.1.0-M1 through 10.1.13, from 9.0.0-M1 through 9.0.81 and from 8.5.0 through 8.5.93 did not correctly parse HTTP trailer headers. A specially \ncrafted, invalid trailer header could cause Tomcat to treat a single \nrequest as multiple requests leading to the possibility of request \nsmuggling when behind a reverse proxy.\n\nUsers are recommended to upgrade to version 11.0.0-M12 onwards, 10.1.14 onwards, 9.0.81 onwards or 8.5.94 onwards, which fix the issue.\n\n",
+            "CNA": "ghsa",
+            "Ratings": [
+              {
+                "ID": 944,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 0,
+                "Vector": "",
+                "MethodTypeID": 3,
+                "Severity": "Medium",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 945,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 0,
+                "Vector": "",
+                "MethodTypeID": 3,
+                "Severity": "High",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 946,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 5.3,
+                "Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "MethodTypeID": 4,
+                "Severity": "Medium",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              }
+            ],
+            "References": null,
+            "Packages": null
+          },
+          {
+            "ID": 66,
+            "CreatedAt": "0001-01-01T00:00:00Z",
+            "UpdatedAt": "0001-01-01T00:00:00Z",
+            "DeletedAt": null,
+            "CVEID": "CVE-2023-41080",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven",
+            "Description": "URL Redirection to Untrusted Site ('Open Redirect') vulnerability in FORM authentication feature Apache Tomcat.This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.0-M10, from 10.1.0-M1 through 10.0.12, from 9.0.0-M1 through 9.0.79 and from 8.5.0 through 8.5.92.\n\nThe vulnerability is limited to the ROOT (default) web application.",
+            "CNA": "ghsa",
+            "Ratings": [
+              {
+                "ID": 969,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 0,
+                "Vector": "",
+                "MethodTypeID": 3,
+                "Severity": "Medium",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 970,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 0,
+                "Vector": "",
+                "MethodTypeID": 3,
+                "Severity": "High",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 971,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 6.1,
+                "Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+                "MethodTypeID": 4,
+                "Severity": "Medium",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              }
+            ],
+            "References": null,
+            "Packages": null
+          },
+          {
+            "ID": 65,
+            "CreatedAt": "0001-01-01T00:00:00Z",
+            "UpdatedAt": "0001-01-01T00:00:00Z",
+            "DeletedAt": null,
+            "CVEID": "CVE-2023-42795",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven",
+            "Description": "Incomplete Cleanup vulnerability in Apache Tomcat.When recycling various internal objects in Apache Tomcat from 11.0.0-M1 through 11.0.0-M11, from 10.1.0-M1 through 10.1.13, from 9.0.0-M1 through 9.0.80 and from 8.5.0 through 8.5.93, an error could \ncause Tomcat to skip some parts of the recycling process leading to \ninformation leaking from the current request/response to the next.\n\nUsers are recommended to upgrade to version 11.0.0-M12 onwards, 10.1.14 onwards, 9.0.81 onwards or 8.5.94 onwards, which fixes the issue.\n\n",
+            "CNA": "ghsa",
+            "Ratings": [
+              {
+                "ID": 962,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 0,
+                "Vector": "",
+                "MethodTypeID": 3,
+                "Severity": "Medium",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 963,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 0,
+                "Vector": "",
+                "MethodTypeID": 3,
+                "Severity": "High",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 964,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 5.3,
+                "Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+                "MethodTypeID": 4,
+                "Severity": "Medium",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              }
+            ],
+            "References": null,
+            "Packages": null
+          },
+          {
+            "ID": 62,
+            "CreatedAt": "0001-01-01T00:00:00Z",
+            "UpdatedAt": "0001-01-01T00:00:00Z",
+            "DeletedAt": null,
+            "CVEID": "CVE-2023-46589",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven",
+            "Description": "Improper Input Validation vulnerability in Apache Tomcat.Tomcat from 11.0.0-M1 through 11.0.0-M10, from 10.1.0-M1 through 10.1.15, from 9.0.0-M1 through 9.0.82 and from 8.5.0 through 8.5.95 did not correctly parse HTTP trailer headers. A trailer header that exceeded the header size limit could cause Tomcat to treat a single \nrequest as multiple requests leading to the possibility of request \nsmuggling when behind a reverse proxy.\n\nUsers are recommended to upgrade to version 11.0.0-M11 onwards, 10.1.16 onwards, 9.0.83 onwards or 8.5.96 onwards, which fix the issue.\n\n",
+            "CNA": "ghsa",
+            "Ratings": [
+              {
+                "ID": 936,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 0,
+                "Vector": "",
+                "MethodTypeID": 3,
+                "Severity": "High",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 937,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 0,
+                "Vector": "",
+                "MethodTypeID": 3,
+                "Severity": "Medium",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 938,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 7.5,
+                "Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+                "MethodTypeID": 4,
+                "Severity": "High",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              }
+            ],
+            "References": null,
+            "Packages": null
+          },
+          {
+            "ID": 88,
+            "CreatedAt": "0001-01-01T00:00:00Z",
+            "UpdatedAt": "0001-01-01T00:00:00Z",
+            "DeletedAt": null,
+            "CVEID": "CVE-2024-24549",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven",
+            "Description": "Denial of Service due to improper input validation vulnerability for HTTP/2 requests in Apache Tomcat. When processing an HTTP/2 request, if the request exceeded any of the configured limits for headers, the associated HTTP/2 stream was not reset until after all of the headers had been processed.This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.0-M16, from 10.1.0-M1 through 10.1.18, from 9.0.0-M1 through 9.0.85, from 8.5.0 through 8.5.98.\n\nUsers are recommended to upgrade to version 11.0.0-M17, 10.1.19, 9.0.86 or 8.5.99 which fix the issue.\n\n",
+            "CNA": "ghsa",
+            "Ratings": [
+              {
+                "ID": 111827,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 0,
+                "Vector": "",
+                "MethodTypeID": 3,
+                "Severity": "Medium",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 111828,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 7.5,
+                "Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "MethodTypeID": 4,
+                "Severity": "High",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 113370,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 0,
+                "Vector": "",
+                "MethodTypeID": 3,
+                "Severity": "High",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              }
+            ],
+            "References": null,
+            "Packages": null
+          }
+        ]
+      },
+      {
+        "ID": 348,
+        "CreatedAt": "0001-01-01T00:00:00Z",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "DeletedAt": null,
+        "Name": "org.apache.tomcat.embed:tomcat-embed-el",
+        "Version": "9.0.68",
+        "PackageManager": "Unknown",
+        "Homepage": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@9.0.68",
+        "Sources": null,
+        "Images": null,
+        "Vulnerabilities": []
+      },
+      {
+        "ID": 349,
+        "CreatedAt": "0001-01-01T00:00:00Z",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "DeletedAt": null,
+        "Name": "org.apache.tomcat.embed:tomcat-embed-websocket",
+        "Version": "9.0.68",
+        "PackageManager": "Unknown",
+        "Homepage": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-websocket@9.0.68",
+        "Sources": null,
+        "Images": null,
+        "Vulnerabilities": []
+      },
+      {
+        "ID": 360,
+        "CreatedAt": "0001-01-01T00:00:00Z",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "DeletedAt": null,
+        "Name": "org.springframework.boot:spring-boot-starter-logging",
+        "Version": "2.7.5",
+        "PackageManager": "Unknown",
+        "Homepage": "pkg:maven/org.springframework.boot/spring-boot-starter-logging@2.7.5",
+        "Sources": null,
+        "Images": null,
+        "Vulnerabilities": []
+      },
+      {
+        "ID": 361,
+        "CreatedAt": "0001-01-01T00:00:00Z",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "DeletedAt": null,
+        "Name": "org.springframework.boot:spring-boot-starter-tomcat",
+        "Version": "2.7.5",
+        "PackageManager": "Unknown",
+        "Homepage": "pkg:maven/org.springframework.boot/spring-boot-starter-tomcat@2.7.5",
+        "Sources": null,
+        "Images": null,
+        "Vulnerabilities": []
+      },
+      {
+        "ID": 362,
+        "CreatedAt": "0001-01-01T00:00:00Z",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "DeletedAt": null,
+        "Name": "org.springframework.boot:spring-boot-starter-web",
+        "Version": "2.5.12",
+        "PackageManager": "Unknown",
+        "Homepage": "pkg:maven/org.springframework.boot/spring-boot-starter-web@2.5.12",
+        "Sources": null,
+        "Images": null,
+        "Vulnerabilities": []
+      },
+      {
+        "ID": 363,
+        "CreatedAt": "0001-01-01T00:00:00Z",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "DeletedAt": null,
+        "Name": "org.springframework:spring-aop",
+        "Version": "5.3.23",
+        "PackageManager": "Unknown",
+        "Homepage": "pkg:maven/org.springframework/spring-aop@5.3.23",
+        "Sources": null,
+        "Images": null,
+        "Vulnerabilities": []
+      },
+      {
+        "ID": 364,
+        "CreatedAt": "0001-01-01T00:00:00Z",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "DeletedAt": null,
+        "Name": "org.springframework:spring-beans",
+        "Version": "5.3.23",
+        "PackageManager": "Unknown",
+        "Homepage": "pkg:maven/org.springframework/spring-beans@5.3.23",
+        "Sources": null,
+        "Images": null,
+        "Vulnerabilities": []
+      },
+      {
+        "ID": 335,
+        "CreatedAt": "0001-01-01T00:00:00Z",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "DeletedAt": null,
+        "Name": "ch.qos.logback:logback-classic",
+        "Version": "1.2.11",
+        "PackageManager": "Unknown",
+        "Homepage": "pkg:maven/ch.qos.logback/logback-classic@1.2.11",
+        "Sources": null,
+        "Images": null,
+        "Vulnerabilities": [
+          {
+            "ID": 61,
+            "CreatedAt": "0001-01-01T00:00:00Z",
+            "UpdatedAt": "0001-01-01T00:00:00Z",
+            "DeletedAt": null,
+            "CVEID": "CVE-2023-6378",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven",
+            "Description": "A serialization vulnerability in logback receiver component part of \nlogback version 1.4.11 allows an attacker to mount a Denial-Of-Service \nattack by sending poisoned data.\n\n",
+            "CNA": "ghsa",
+            "Ratings": [
+              {
+                "ID": 933,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 7.1,
+                "Vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "MethodTypeID": 4,
+                "Severity": "High",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 934,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 7.5,
+                "Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "MethodTypeID": 4,
+                "Severity": "High",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 935,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 7.5,
+                "Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "MethodTypeID": 4,
+                "Severity": "Medium",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              }
+            ],
+            "References": null,
+            "Packages": null
+          }
+        ]
+      },
+      {
+        "ID": 336,
+        "CreatedAt": "0001-01-01T00:00:00Z",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "DeletedAt": null,
+        "Name": "ch.qos.logback:logback-core",
+        "Version": "1.2.11",
+        "PackageManager": "Unknown",
+        "Homepage": "pkg:maven/ch.qos.logback/logback-core@1.2.11",
+        "Sources": null,
+        "Images": null,
+        "Vulnerabilities": [
+          {
+            "ID": 61,
+            "CreatedAt": "0001-01-01T00:00:00Z",
+            "UpdatedAt": "0001-01-01T00:00:00Z",
+            "DeletedAt": null,
+            "CVEID": "CVE-2023-6378",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven",
+            "Description": "A serialization vulnerability in logback receiver component part of \nlogback version 1.4.11 allows an attacker to mount a Denial-Of-Service \nattack by sending poisoned data.\n\n",
+            "CNA": "ghsa",
+            "Ratings": [
+              {
+                "ID": 933,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 7.1,
+                "Vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "MethodTypeID": 4,
+                "Severity": "High",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 934,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 7.5,
+                "Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "MethodTypeID": 4,
+                "Severity": "High",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 935,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 7.5,
+                "Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "MethodTypeID": 4,
+                "Severity": "Medium",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              }
+            ],
+            "References": null,
+            "Packages": null
+          }
+        ]
+      },
+      {
+        "ID": 337,
+        "CreatedAt": "0001-01-01T00:00:00Z",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "DeletedAt": null,
+        "Name": "com.example:demo",
+        "Version": "0.0.1-SNAPSHOT",
+        "PackageManager": "Unknown",
+        "Homepage": "pkg:maven/com.example/demo@0.0.1-SNAPSHOT",
+        "Sources": null,
+        "Images": null,
+        "Vulnerabilities": []
+      },
+      {
+        "ID": 338,
+        "CreatedAt": "0001-01-01T00:00:00Z",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "DeletedAt": null,
+        "Name": "com.fasterxml.jackson.core:jackson-annotations",
+        "Version": "2.13.4",
+        "PackageManager": "Unknown",
+        "Homepage": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.4",
+        "Sources": null,
+        "Images": null,
+        "Vulnerabilities": []
+      },
+      {
+        "ID": 339,
+        "CreatedAt": "0001-01-01T00:00:00Z",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "DeletedAt": null,
+        "Name": "com.fasterxml.jackson.core:jackson-core",
+        "Version": "2.13.4",
+        "PackageManager": "Unknown",
+        "Homepage": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.4",
+        "Sources": null,
+        "Images": null,
+        "Vulnerabilities": []
+      },
+      {
+        "ID": 340,
+        "CreatedAt": "0001-01-01T00:00:00Z",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "DeletedAt": null,
+        "Name": "com.fasterxml.jackson.core:jackson-databind",
+        "Version": "2.13.4.2",
+        "PackageManager": "Unknown",
+        "Homepage": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.4.2",
+        "Sources": null,
+        "Images": null,
+        "Vulnerabilities": []
+      },
+      {
+        "ID": 341,
+        "CreatedAt": "0001-01-01T00:00:00Z",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "DeletedAt": null,
+        "Name": "com.fasterxml.jackson.datatype:jackson-datatype-jdk8",
+        "Version": "2.13.4",
+        "PackageManager": "Unknown",
+        "Homepage": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jdk8@2.13.4",
+        "Sources": null,
+        "Images": null,
+        "Vulnerabilities": []
+      },
+      {
+        "ID": 342,
+        "CreatedAt": "0001-01-01T00:00:00Z",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "DeletedAt": null,
+        "Name": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310",
+        "Version": "2.13.4",
+        "PackageManager": "Unknown",
+        "Homepage": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.13.4",
+        "Sources": null,
+        "Images": null,
+        "Vulnerabilities": []
+      },
+      {
+        "ID": 372,
+        "CreatedAt": "0001-01-01T00:00:00Z",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "DeletedAt": null,
+        "Name": "pom.xml",
+        "Version": "",
+        "PackageManager": "Unknown",
+        "Homepage": "",
+        "Sources": null,
+        "Images": null,
+        "Vulnerabilities": []
+      },
+      {
+        "ID": 350,
+        "CreatedAt": "0001-01-01T00:00:00Z",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "DeletedAt": null,
+        "Name": "org.hdrhistogram:HdrHistogram",
+        "Version": "2.1.12",
+        "PackageManager": "Unknown",
+        "Homepage": "pkg:maven/org.hdrhistogram/HdrHistogram@2.1.12",
+        "Sources": null,
+        "Images": null,
+        "Vulnerabilities": []
+      },
+      {
+        "ID": 351,
+        "CreatedAt": "0001-01-01T00:00:00Z",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "DeletedAt": null,
+        "Name": "org.slf4j:jul-to-slf4j",
+        "Version": "1.7.36",
+        "PackageManager": "Unknown",
+        "Homepage": "pkg:maven/org.slf4j/jul-to-slf4j@1.7.36",
+        "Sources": null,
+        "Images": null,
+        "Vulnerabilities": []
+      },
+      {
+        "ID": 352,
+        "CreatedAt": "0001-01-01T00:00:00Z",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "DeletedAt": null,
+        "Name": "org.slf4j:slf4j-api",
+        "Version": "1.7.36",
+        "PackageManager": "Unknown",
+        "Homepage": "pkg:maven/org.slf4j/slf4j-api@1.7.36",
+        "Sources": null,
+        "Images": null,
+        "Vulnerabilities": []
+      },
+      {
+        "ID": 353,
+        "CreatedAt": "0001-01-01T00:00:00Z",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "DeletedAt": null,
+        "Name": "org.springframework.boot:spring-boot",
+        "Version": "2.7.5",
+        "PackageManager": "Unknown",
+        "Homepage": "pkg:maven/org.springframework.boot/spring-boot@2.7.5",
+        "Sources": null,
+        "Images": null,
+        "Vulnerabilities": [
+          {
+            "ID": 67,
+            "CreatedAt": "0001-01-01T00:00:00Z",
+            "UpdatedAt": "0001-01-01T00:00:00Z",
+            "DeletedAt": null,
+            "CVEID": "CVE-2023-34055",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven",
+            "Description": "In Spring Boot versions 2.7.0 - 2.7.17, 3.0.0-3.0.12 and 3.1.0-3.1.5, it is possible for a user to provide specially crafted HTTP requests that may cause a denial-of-service (DoS) condition.\n\nSpecifically, an application is vulnerable when all of the following are true:\n\n  *  the application uses Spring MVC or Spring WebFlux\n  *  org.springframework.boot:spring-boot-actuator is on the classpath\n\n\n\n",
+            "CNA": "ghsa",
+            "Ratings": [
+              {
+                "ID": 976,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 6.5,
+                "Vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+                "MethodTypeID": 4,
+                "Severity": "Medium",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 978,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 5.9,
+                "Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "MethodTypeID": 4,
+                "Severity": "Medium",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              }
+            ],
+            "References": null,
+            "Packages": null
+          }
+        ]
+      },
+      {
+        "ID": 354,
+        "CreatedAt": "0001-01-01T00:00:00Z",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "DeletedAt": null,
+        "Name": "org.springframework.boot:spring-boot-actuator",
+        "Version": "2.7.5",
+        "PackageManager": "Unknown",
+        "Homepage": "pkg:maven/org.springframework.boot/spring-boot-actuator@2.7.5",
+        "Sources": null,
+        "Images": null,
+        "Vulnerabilities": []
+      },
+      {
+        "ID": 355,
+        "CreatedAt": "0001-01-01T00:00:00Z",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "DeletedAt": null,
+        "Name": "org.springframework.boot:spring-boot-actuator-autoconfigure",
+        "Version": "2.7.5",
+        "PackageManager": "Unknown",
+        "Homepage": "pkg:maven/org.springframework.boot/spring-boot-actuator-autoconfigure@2.7.5",
+        "Sources": null,
+        "Images": null,
+        "Vulnerabilities": [
+          {
+            "ID": 68,
+            "CreatedAt": "0001-01-01T00:00:00Z",
+            "UpdatedAt": "0001-01-01T00:00:00Z",
+            "DeletedAt": null,
+            "CVEID": "CVE-2023-20873",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven",
+            "Description": "In Spring Boot versions 3.0.0 - 3.0.5, 2.7.0 - 2.7.10, and older unsupported versions, an application that is deployed to Cloud Foundry could be susceptible to a security bypass. Users of affected versions should apply the following mitigation: 3.0.x users should upgrade to 3.0.6+. 2.7.x users should upgrade to 2.7.11+. Users of older, unsupported versions should upgrade to 3.0.6+ or 2.7.11+.",
+            "CNA": "ghsa",
+            "Ratings": [
+              {
+                "ID": 979,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 9.8,
+                "Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "MethodTypeID": 4,
+                "Severity": "Critical",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 981,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 9.8,
+                "Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "MethodTypeID": 4,
+                "Severity": "High",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              }
+            ],
+            "References": null,
+            "Packages": null
+          }
+        ]
+      },
+      {
+        "ID": 356,
+        "CreatedAt": "0001-01-01T00:00:00Z",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "DeletedAt": null,
+        "Name": "org.springframework.boot:spring-boot-autoconfigure",
+        "Version": "2.7.5",
+        "PackageManager": "Unknown",
+        "Homepage": "pkg:maven/org.springframework.boot/spring-boot-autoconfigure@2.7.5",
+        "Sources": null,
+        "Images": null,
+        "Vulnerabilities": [
+          {
+            "ID": 69,
+            "CreatedAt": "0001-01-01T00:00:00Z",
+            "UpdatedAt": "0001-01-01T00:00:00Z",
+            "DeletedAt": null,
+            "CVEID": "CVE-2023-20883",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven",
+            "Description": "In Spring Boot versions 3.0.0 - 3.0.6, 2.7.0 - 2.7.11, 2.6.0 - 2.6.14, 2.5.0 - 2.5.14 and older unsupported versions, there is potential for a denial-of-service (DoS) attack if Spring MVC is used together with a reverse proxy cache.",
+            "CNA": "ghsa",
+            "Ratings": [
+              {
+                "ID": 982,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 7.5,
+                "Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "MethodTypeID": 4,
+                "Severity": "High",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              }
+            ],
+            "References": null,
+            "Packages": null
+          }
+        ]
+      },
+      {
+        "ID": 357,
+        "CreatedAt": "0001-01-01T00:00:00Z",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "DeletedAt": null,
+        "Name": "org.springframework.boot:spring-boot-starter",
+        "Version": "2.7.5",
+        "PackageManager": "Unknown",
+        "Homepage": "pkg:maven/org.springframework.boot/spring-boot-starter@2.7.5",
+        "Sources": null,
+        "Images": null,
+        "Vulnerabilities": []
+      },
+      {
+        "ID": 358,
+        "CreatedAt": "0001-01-01T00:00:00Z",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "DeletedAt": null,
+        "Name": "org.springframework.boot:spring-boot-starter-actuator",
+        "Version": "2.7.5",
+        "PackageManager": "Unknown",
+        "Homepage": "pkg:maven/org.springframework.boot/spring-boot-starter-actuator@2.7.5",
+        "Sources": null,
+        "Images": null,
+        "Vulnerabilities": []
+      },
+      {
+        "ID": 359,
+        "CreatedAt": "0001-01-01T00:00:00Z",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "DeletedAt": null,
+        "Name": "org.springframework.boot:spring-boot-starter-json",
+        "Version": "2.7.5",
+        "PackageManager": "Unknown",
+        "Homepage": "pkg:maven/org.springframework.boot/spring-boot-starter-json@2.7.5",
+        "Sources": null,
+        "Images": null,
+        "Vulnerabilities": []
+      },
+      {
+        "ID": 366,
+        "CreatedAt": "0001-01-01T00:00:00Z",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "DeletedAt": null,
+        "Name": "org.springframework:spring-core",
+        "Version": "5.3.23",
+        "PackageManager": "Unknown",
+        "Homepage": "pkg:maven/org.springframework/spring-core@5.3.23",
+        "Sources": null,
+        "Images": null,
+        "Vulnerabilities": []
+      },
+      {
+        "ID": 367,
+        "CreatedAt": "0001-01-01T00:00:00Z",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "DeletedAt": null,
+        "Name": "org.springframework:spring-expression",
+        "Version": "5.3.23",
+        "PackageManager": "Unknown",
+        "Homepage": "pkg:maven/org.springframework/spring-expression@5.3.23",
+        "Sources": null,
+        "Images": null,
+        "Vulnerabilities": [
+          {
+            "ID": 42,
+            "CreatedAt": "0001-01-01T00:00:00Z",
+            "UpdatedAt": "0001-01-01T00:00:00Z",
+            "DeletedAt": null,
+            "CVEID": "CVE-2023-20863",
+            "URL": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-20863",
+            "Description": "In spring framework versions prior to 5.2.24 release+ ,5.3.27+ and 6.0.8+ , it is possible for a user to provide a specially crafted SpEL expression that may cause a denial-of-service (DoS) condition.",
+            "CNA": "nvd:cpe",
+            "Ratings": [
+              {
+                "ID": 58,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 0,
+                "Vector": "",
+                "MethodTypeID": 3,
+                "Severity": "Medium",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 59,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 6.5,
+                "Vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+                "MethodTypeID": 2,
+                "Severity": "Unknown",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 1023,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 7.5,
+                "Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "MethodTypeID": 4,
+                "Severity": "High",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 1024,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 6.5,
+                "Vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+                "MethodTypeID": 4,
+                "Severity": "Medium",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              }
+            ],
+            "References": null,
+            "Packages": null
+          },
+          {
+            "ID": 41,
+            "CreatedAt": "0001-01-01T00:00:00Z",
+            "UpdatedAt": "0001-01-01T00:00:00Z",
+            "DeletedAt": null,
+            "CVEID": "CVE-2023-20861",
+            "URL": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-20861",
+            "Description": "In Spring Framework versions 6.0.0 - 6.0.6, 5.3.0 - 5.3.25, 5.2.0.RELEASE - 5.2.22.RELEASE, and older unsupported versions, it is possible for a user to provide a specially crafted SpEL expression that may cause a denial-of-service (DoS) condition.",
+            "CNA": "nvd:cpe",
+            "Ratings": [
+              {
+                "ID": 56,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 0,
+                "Vector": "",
+                "MethodTypeID": 3,
+                "Severity": "Medium",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 57,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 6.5,
+                "Vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+                "MethodTypeID": 2,
+                "Severity": "Unknown",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 1026,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 6.5,
+                "Vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+                "MethodTypeID": 4,
+                "Severity": "Medium",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 1028,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 5.3,
+                "Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "MethodTypeID": 4,
+                "Severity": "Medium",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              }
+            ],
+            "References": null,
+            "Packages": null
+          }
+        ]
+      },
+      {
+        "ID": 368,
+        "CreatedAt": "0001-01-01T00:00:00Z",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "DeletedAt": null,
+        "Name": "org.springframework:spring-jcl",
+        "Version": "5.3.23",
+        "PackageManager": "Unknown",
+        "Homepage": "pkg:maven/org.springframework/spring-jcl@5.3.23",
+        "Sources": null,
+        "Images": null,
+        "Vulnerabilities": []
+      },
+      {
+        "ID": 369,
+        "CreatedAt": "0001-01-01T00:00:00Z",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "DeletedAt": null,
+        "Name": "org.springframework:spring-web",
+        "Version": "5.3.23",
+        "PackageManager": "Unknown",
+        "Homepage": "pkg:maven/org.springframework/spring-web@5.3.23",
+        "Sources": null,
+        "Images": null,
+        "Vulnerabilities": [
+          {
+            "ID": 39,
+            "CreatedAt": "0001-01-01T00:00:00Z",
+            "UpdatedAt": "0001-01-01T00:00:00Z",
+            "DeletedAt": null,
+            "CVEID": "CVE-2016-1000027",
+            "URL": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-1000027",
+            "Description": "Pivotal Spring Framework through 5.3.16 suffers from a potential remote code execution (RCE) issue if used for Java deserialization of untrusted data. Depending on how the library is implemented within a product, this issue may or not occur, and authentication may be required. NOTE: the vendor's position is that untrusted data is not an intended use case. The product's behavior will not be changed because some users rely on deserialization of trusted data.",
+            "CNA": "nvd:cpe",
+            "Ratings": [
+              {
+                "ID": 51,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 0,
+                "Vector": "",
+                "MethodTypeID": 3,
+                "Severity": "Critical",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 52,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 7.5,
+                "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+                "MethodTypeID": 1,
+                "Severity": "Unknown",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 53,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 9.8,
+                "Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "MethodTypeID": 2,
+                "Severity": "Unknown",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 1029,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 9.8,
+                "Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "MethodTypeID": 4,
+                "Severity": "Critical",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 1030,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 7.5,
+                "Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+                "MethodTypeID": 1,
+                "Severity": "High",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 1032,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 6.8,
+                "Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+                "MethodTypeID": 1,
+                "Severity": "Medium",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 1033,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 9.8,
+                "Vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "MethodTypeID": 2,
+                "Severity": "Medium",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              }
+            ],
+            "References": null,
+            "Packages": null
+          },
+          {
+            "ID": 89,
+            "CreatedAt": "0001-01-01T00:00:00Z",
+            "UpdatedAt": "0001-01-01T00:00:00Z",
+            "DeletedAt": null,
+            "CVEID": "CVE-2024-22259",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven",
+            "Description": "Applications that use UriComponentsBuilder in Spring Framework to parse an externally provided URL (e.g. through a query parameter) AND perform validation checks on the host of the parsed URL may be vulnerable to a  open redirect https://cwe.mitre.org/data/definitions/601.html  attack or to a SSRF attack if the URL is used after passing validation checks.\n\nThis is the same as  CVE-2024-22243 https://spring.io/security/cve-2024-22243 , but with different input.\n\n",
+            "CNA": "ghsa",
+            "Ratings": [
+              {
+                "ID": 111829,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 8.1,
+                "Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+                "MethodTypeID": 4,
+                "Severity": "High",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              }
+            ],
+            "References": null,
+            "Packages": null
+          },
+          {
+            "ID": 70,
+            "CreatedAt": "0001-01-01T00:00:00Z",
+            "UpdatedAt": "0001-01-01T00:00:00Z",
+            "DeletedAt": null,
+            "CVEID": "CVE-2024-22243",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven",
+            "Description": "Applications that use UriComponentsBuilder to parse an externally provided URL (e.g. through a query parameter) AND perform validation checks on the host of the parsed URL may be vulnerable to a  open redirect https://cwe.mitre.org/data/definitions/601.html  attack or to a SSRF attack if the URL is used after passing validation checks.\n",
+            "CNA": "ghsa",
+            "Ratings": [
+              {
+                "ID": 985,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 8.1,
+                "Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+                "MethodTypeID": 4,
+                "Severity": "High",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 986,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 3.4,
+                "Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:N/I:L/A:N",
+                "MethodTypeID": 4,
+                "Severity": "Medium",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              }
+            ],
+            "References": null,
+            "Packages": null
+          }
+        ]
+      },
+      {
+        "ID": 365,
+        "CreatedAt": "0001-01-01T00:00:00Z",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "DeletedAt": null,
+        "Name": "org.springframework:spring-context",
+        "Version": "5.3.23",
+        "PackageManager": "Unknown",
+        "Homepage": "pkg:maven/org.springframework/spring-context@5.3.23",
+        "Sources": null,
+        "Images": null,
+        "Vulnerabilities": []
+      },
+      {
+        "ID": 370,
+        "CreatedAt": "0001-01-01T00:00:00Z",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "DeletedAt": null,
+        "Name": "org.springframework:spring-webmvc",
+        "Version": "5.3.23",
+        "PackageManager": "Unknown",
+        "Homepage": "pkg:maven/org.springframework/spring-webmvc@5.3.23",
+        "Sources": null,
+        "Images": null,
+        "Vulnerabilities": []
+      },
+      {
+        "ID": 371,
+        "CreatedAt": "0001-01-01T00:00:00Z",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "DeletedAt": null,
+        "Name": "org.yaml:snakeyaml",
+        "Version": "1.30",
+        "PackageManager": "Unknown",
+        "Homepage": "pkg:maven/org.yaml/snakeyaml@1.30",
+        "Sources": null,
+        "Images": null,
+        "Vulnerabilities": [
+          {
+            "ID": 76,
+            "CreatedAt": "0001-01-01T00:00:00Z",
+            "UpdatedAt": "0001-01-01T00:00:00Z",
+            "DeletedAt": null,
+            "CVEID": "CVE-2022-25857",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven",
+            "Description": "The package org.yaml:snakeyaml from 0 and before 1.31 are vulnerable to Denial of Service (DoS) due missing to nested depth limitation for collections.",
+            "CNA": "ghsa",
+            "Ratings": [
+              {
+                "ID": 1009,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 0,
+                "Vector": "",
+                "MethodTypeID": 3,
+                "Severity": "Medium",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 1010,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 0,
+                "Vector": "",
+                "MethodTypeID": 3,
+                "Severity": "High",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 1011,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 7.5,
+                "Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "MethodTypeID": 4,
+                "Severity": "High",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 1016,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 0,
+                "Vector": "",
+                "MethodTypeID": 3,
+                "Severity": "Low",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              }
+            ],
+            "References": null,
+            "Packages": null
+          },
+          {
+            "ID": 75,
+            "CreatedAt": "0001-01-01T00:00:00Z",
+            "UpdatedAt": "0001-01-01T00:00:00Z",
+            "DeletedAt": null,
+            "CVEID": "CVE-2022-38749",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven",
+            "Description": "Using snakeYAML to parse untrusted YAML files may be vulnerable to Denial of Service attacks (DOS). If the parser is running on user supplied input, an attacker may supply content that causes the parser to crash by stackoverflow.",
+            "CNA": "ghsa",
+            "Ratings": [
+              {
+                "ID": 1005,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 6.5,
+                "Vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+                "MethodTypeID": 4,
+                "Severity": "Medium",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 1008,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 0,
+                "Vector": "",
+                "MethodTypeID": 3,
+                "Severity": "Medium",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              }
+            ],
+            "References": null,
+            "Packages": null
+          },
+          {
+            "ID": 71,
+            "CreatedAt": "0001-01-01T00:00:00Z",
+            "UpdatedAt": "0001-01-01T00:00:00Z",
+            "DeletedAt": null,
+            "CVEID": "CVE-2022-41854",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven",
+            "Description": "Those using Snakeyaml to parse untrusted YAML files may be vulnerable to Denial of Service attacks (DOS). If the parser is running on user supplied input, an attacker may supply content that causes the parser to crash by stack overflow. This effect may support a denial of service attack.",
+            "CNA": "ghsa",
+            "Ratings": [
+              {
+                "ID": 987,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 0,
+                "Vector": "",
+                "MethodTypeID": 3,
+                "Severity": "Medium",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 988,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 6.5,
+                "Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "MethodTypeID": 4,
+                "Severity": "Medium",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              }
+            ],
+            "References": null,
+            "Packages": null
+          },
+          {
+            "ID": 72,
+            "CreatedAt": "0001-01-01T00:00:00Z",
+            "UpdatedAt": "0001-01-01T00:00:00Z",
+            "DeletedAt": null,
+            "CVEID": "CVE-2022-38752",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven",
+            "Description": "Using snakeYAML to parse untrusted YAML files may be vulnerable to Denial of Service attacks (DOS). If the parser is running on user supplied input, an attacker may supply content that causes the parser to crash by stack-overflow.",
+            "CNA": "ghsa",
+            "Ratings": [
+              {
+                "ID": 991,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 0,
+                "Vector": "",
+                "MethodTypeID": 3,
+                "Severity": "Medium",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 992,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 6.5,
+                "Vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+                "MethodTypeID": 4,
+                "Severity": "Medium",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 91498,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 0,
+                "Vector": "",
+                "MethodTypeID": 3,
+                "Severity": "Low",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              }
+            ],
+            "References": null,
+            "Packages": null
+          },
+          {
+            "ID": 73,
+            "CreatedAt": "0001-01-01T00:00:00Z",
+            "UpdatedAt": "0001-01-01T00:00:00Z",
+            "DeletedAt": null,
+            "CVEID": "CVE-2022-38751",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven",
+            "Description": "Using snakeYAML to parse untrusted YAML files may be vulnerable to Denial of Service attacks (DOS). If the parser is running on user supplied input, an attacker may supply content that causes the parser to crash by stackoverflow.",
+            "CNA": "ghsa",
+            "Ratings": [
+              {
+                "ID": 995,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 0,
+                "Vector": "",
+                "MethodTypeID": 3,
+                "Severity": "Medium",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 996,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 6.5,
+                "Vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+                "MethodTypeID": 4,
+                "Severity": "Medium",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              }
+            ],
+            "References": null,
+            "Packages": null
+          },
+          {
+            "ID": 74,
+            "CreatedAt": "0001-01-01T00:00:00Z",
+            "UpdatedAt": "0001-01-01T00:00:00Z",
+            "DeletedAt": null,
+            "CVEID": "CVE-2022-38750",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven",
+            "Description": "Using snakeYAML to parse untrusted YAML files may be vulnerable to Denial of Service attacks (DOS). If the parser is running on user supplied input, an attacker may supply content that causes the parser to crash by stackoverflow.",
+            "CNA": "ghsa",
+            "Ratings": [
+              {
+                "ID": 1000,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 0,
+                "Vector": "",
+                "MethodTypeID": 3,
+                "Severity": "Medium",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 1001,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 5.5,
+                "Vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "MethodTypeID": 4,
+                "Severity": "Medium",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              }
+            ],
+            "References": null,
+            "Packages": null
+          },
+          {
+            "ID": 77,
+            "CreatedAt": "0001-01-01T00:00:00Z",
+            "UpdatedAt": "0001-01-01T00:00:00Z",
+            "DeletedAt": null,
+            "CVEID": "CVE-2022-1471",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven",
+            "Description": "SnakeYaml's Constructor() class does not restrict types which can be instantiated during deserialization. Deserializing yaml content provided by an attacker can lead to remote code execution. We recommend using SnakeYaml's SafeConsturctor when parsing untrusted content to restrict deserialization. We recommend upgrading to version 2.0 and beyond.\n",
+            "CNA": "ghsa",
+            "Ratings": [
+              {
+                "ID": 1017,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 0,
+                "Vector": "",
+                "MethodTypeID": 3,
+                "Severity": "High",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 1018,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 8.3,
+                "Vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:L",
+                "MethodTypeID": 4,
+                "Severity": "High",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 1019,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 9.8,
+                "Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "MethodTypeID": 4,
+                "Severity": "Critical",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              },
+              {
+                "ID": 1021,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 9.8,
+                "Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "MethodTypeID": 4,
+                "Severity": "High",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
+              }
+            ],
+            "References": null,
+            "Packages": null
+          }
+        ]
+      }
+    ],
+    "Images": []
+  }
+]
