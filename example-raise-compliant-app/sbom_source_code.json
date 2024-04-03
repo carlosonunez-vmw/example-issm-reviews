@@ -476,6 +476,24 @@
                   "Name": "",
                   "Rating": null
                 }
+             },
+              {
+                "ID": 113370,
+                "CreatedAt": "0001-01-01T00:00:00Z",
+                "UpdatedAt": "0001-01-01T00:00:00Z",
+                "DeletedAt": null,
+                "Score": 0,
+                "Vector": "",
+                "MethodTypeID": 3,
+                "Severity": "High",
+                "MethodType": {
+                  "ID": 0,
+                  "CreatedAt": "0001-01-01T00:00:00Z",
+                  "UpdatedAt": "0001-01-01T00:00:00Z",
+                  "DeletedAt": null,
+                  "Name": "",
+                  "Rating": null
+                }
               }
             ],
             "References": null,
@@ -825,6 +843,19 @@
         "Version": "2.13.4",
         "PackageManager": "Unknown",
         "Homepage": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.13.4",
+        "Sources": null,
+        "Images": null,
+        "Vulnerabilities": []
+      },
+      {
+        "ID": 372,
+        "CreatedAt": "0001-01-01T00:00:00Z",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "DeletedAt": null,
+        "Name": "pom.xml",
+        "Version": "",
+        "PackageManager": "Unknown",
+        "Homepage": "",
         "Sources": null,
         "Images": null,
         "Vulnerabilities": []
